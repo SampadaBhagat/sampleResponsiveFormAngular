@@ -1,0 +1,45 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Reactive Form
+  </h1>
+  <div id="myDiv">
+    <div class="loaderDiv" *ngIf="showLoader">
+      <div id="loader" ></div>
+      Loading...
+    </div>
+    <form *ngIf="!showLoader" [formGroup]="reactiveForm" (ngSubmit)="submit()" class="form">
+      <div class="row">
+        <div class="col-25">
+          <label>
+            Name:
+          </label>
+        </div>
+        <div class="col-75">
+          <input type="text" formControlName="name" class="name">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label>
+            Email:
+          </label>
+        </div>
+        <div class="col-75">
+          <input type="text" formControlName="email">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label>
+            Message:
+          </label>
+        </div>
+        <div class="col-75">
+          <textarea formControlName="message"></textarea>
+        </div>
+      </div>
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+</div>
