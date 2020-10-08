@@ -1,4 +1,16 @@
-# JimdoTest
+## Problem statement
+
+Please build a responsive form. The form should include a Name, EMail and Message field.
+The labels should be next to the inputs on a big screen and above on a small screen (<= 600px).
+
+When the user submits the form, sending of the data should be simulated with a timeout. While sending a loading indicator should be shown and all inputs must not be accessible.
+
+Please add a test that checks if the form submits its data when the submit button gets clicked.
+
+You are totally free in deciding how you build this. If anything is unclear to you, just make an assumption and proceed with what you think makes sense.
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
 
@@ -27,11 +39,3 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
 
-Please build a responsive form. The form should include a Name, EMail and Message field.
-The labels should be next to the inputs on a big screen and above on a small screen (<= 600px).
-
-When the user submits the form, sending of the data should be simulated with a timeout. While sending a loading indicator should be shown and all inputs must not be accessible.
-
-Please add a test that checks if the form submits its data when the submit button gets clicked.
-
-You are totally free in deciding how you build this. If anything is unclear to you, just make an assumption and proceed with what you think makes sense.
